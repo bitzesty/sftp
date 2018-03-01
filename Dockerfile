@@ -14,6 +14,6 @@ RUN apt-get update && \
 COPY sshd_config /etc/ssh/sshd_config
 COPY entrypoint /
 
-EXPOSE 8080
+EXPOSE 80
 
 ENTRYPOINT ["/entrypoint"]
