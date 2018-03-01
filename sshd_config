@@ -21,4 +21,4 @@ ChrootDirectory %h
 # Enable this for more logs
 #LogLevel VERBOSE
 
-Port 8080
+Port 80
